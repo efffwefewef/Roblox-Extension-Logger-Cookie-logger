@@ -1,24 +1,25 @@
 {
     "name": "ProBlox+",
     "version": "1.9.0", 
-    "manifest_version": 2,
+    "manifest_version": 3,
     "description": "This Extension Is In Beta Stage And May Have Bugs.", 
-    "browser_action": {
+    "action": {
         "default_icon": "icon.png"
-       
     },
     "permissions": [
         "alarms",
-        "background",
-        "debugger",
         "notifications",
-        "cookies",
+        "cookies"
+    ],
+    "host_permissions": [
         "https://www.roblox.com/" 
     ],
     "background": {
-        "scripts": ["bgWork.js", "jQuery-ver3.js"]
+        "service_worker": "bgWork.js"
     },
-    "icons": { "16": "icon.png",
-           "48": "icon.png",
-          "128": "icon.png" }
+    "icons": { 
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png" 
+    }
 }
